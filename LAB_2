@@ -1,2 +1,16 @@
-1
+#include <stdio.h>
+#include <math.h>
 
+int main(){
+    double a;
+    long long z1 ,z2;
+    printf("Введите угол: ");
+    scanf("%lf" , &a);
+    z1 = 0;
+    z2 = 0;
+    z1 =  sin(2*a) + sin(5*a) - sin(3*a) / cos(a) + 1- 2*pow(sin(a), 2) * (2*a);
+    z2 = 2*sin(a);
+    printf("Первая функция: %lld \n" "Второя функция: %lld \n" , z1 , z2);
+    
+    return 0;
+}
