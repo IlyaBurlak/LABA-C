@@ -41,7 +41,7 @@ void* NewStruct(){
     
 }
 
-void * printStruct(){
+void* printStruct(){
     struct Circle a;
     printf("Радиус : %f\n" , a.radius);
     printf("Диаметр : %f\n" , a.diametr);
