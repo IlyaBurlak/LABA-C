@@ -8,7 +8,7 @@
 #include "Lab_11.h"
 #include <stdio.h>
 
-struct Circle {
+struct* Circle {
     float pi;
     float radius;
     float diametr;
@@ -16,17 +16,17 @@ struct Circle {
     float circle_length;
 };
 
-float square(struct Circle al){
+float* square(struct Circle al){
     
     return al.radius *al.radius *al.pi;
    
     }
 
-float circles(struct Circle al){
+float* circles(struct Circle al){
     return 2*al.pi*al.radius;
 }
 
-void NewStruct(){
+void* NewStruct(){
     struct Circle al;
     float pi , r;
     printf("Введите число pi ");
@@ -41,7 +41,7 @@ void NewStruct(){
     
 }
 
-void printStruct(){
+void * printStruct(){
     struct Circle a;
     printf("Радиус : %f\n" , a.radius);
     printf("Диаметр : %f\n" , a.diametr);
