@@ -27,7 +27,7 @@ float circles(struct Circle *al){
 }
 
 void NewStruct(){
-    struct Circle al;
+    struct Circle *al;
     float pi , r;
     printf("Введите число pi ");
     scanf("%f" ,  &pi);
