@@ -22,7 +22,7 @@ float square(struct Circle *al){
    
     }
 
-float* circles(struct Circle *al){
+float circles(struct Circle *al){
     return 2*al.pi*al.radius;
 }
 
@@ -41,7 +41,7 @@ void NewStruct(){
     
 }
 
-void* printStruct(){
+void printStruct(){
     struct Circle *a;
     printf("Радиус : %f\n" , a.radius);
     printf("Диаметр : %f\n" , a.diametr);
